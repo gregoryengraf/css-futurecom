@@ -1,0 +1,128 @@
+/*============ Caroussel ============*/
+	.futurecarousel .carousel-caption{
+		width:100% !important;
+		font-size:22px;
+		font-weight:bold;
+		top:60% !important;
+		padding-bottom:0;
+		/*background:url(https://www.fimeshow.com/content/dam/Informa/fimeshow/en/images/general/main_banner_bg.png) top center repeat-x;*/
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#113656+0,113656+46&0+0,1+53 */
+		background: -moz-linear-gradient(top, rgba(17,54,86,0) 0%, rgba(17,54,86,0.87) 46%, rgba(17,54,86,1) 53%) !important; /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(17,54,86,0) 0%,rgba(17,54,86,0.87) 46%,rgba(17,54,86,1) 53%) !important; /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(17,54,86,0) 0%,rgba(17,54,86,0.87) 46%,rgba(17,54,86,1) 53%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00113656', endColorstr='#113656',GradientType=0 ); /* IE6-9 */
+	}
+	.futurecarousel .carousel-caption .container{
+		width:100% !important;
+		text-transform:uppercase;
+		font-weight:bold;
+		font-size:19px;
+		padding-bottom:5px;
+	}
+	.futurecarousel .carousel-calltoAction{
+		text-transform:uppercase;
+		margin-top:20px
+	}
+	.futurecarousel .carousel-calltoAction button{
+		text-transform:uppercase;
+		background:none !important;
+		border:1px solid #fff !important;
+		font-size:17px
+	}
+	.futurecarousel .carousel-calltoAction button:hover{
+		background:#20a0a7 !important;
+		border:1px solid #fff !important;
+		-webkit-transition:all 300ms ease-in-out;
+		-moz-transition:all 300ms ease-in-out;
+		-ms-transition:all 300ms ease-in-out;
+		-o-transition:all 300ms ease-in-out;
+		transition:all 300ms ease-in-out
+	}
+	.futurecarousel .carousel-inner>.item:nth-child(5) .carousel-caption{
+		width:100% !important;
+		font-size:22px;
+		font-weight:bold;
+		top:auto;
+		padding-bottom:0;
+		background:#fff;
+		color:#000 !important
+	}
+	.futurecarousel .carousel-inner>.item:nth-child(5) .carousel-calltoAction button{
+		text-transform:uppercase;
+		background:#000 !important;
+		border:1px solid #fff !important;
+		font-size:17px
+	}
+	.futurecarousel .carousel-inner>.item:nth-child(5) .carousel-calltoAction button:hover{
+		background:#20a0a7 !important;
+		border:1px solid #20a0a7 !important;
+		-webkit-transition:all 300ms ease-in-out;
+		-moz-transition:all 300ms ease-in-out;
+		-ms-transition:all 300ms ease-in-out;
+		-o-transition:all 300ms ease-in-out;
+		transition:all 300ms ease-in-out
+	}
+	/*============ Caroussel ============*/
+
+
+	/*============ Nav ============*/
+	nav.row.navbar.navbar-inverse.navbar-static-top.navbar-inverse {
+	    background-color: #113656 !important;
+	}
+	.navbar-inverse .navbar-nav >.active>a {
+		background-color: #20a0a7;
+	}
+	.mainNav .nav .open a, .mainNav .nav .open a:hover {
+	    background-color: #20a0a7 !important;
+	    color: #ffffff !important;
+	}
+
+	.informa-header-menu .navbar-inverse .mobileLayoutNav .dropdown-menu li a:hover{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#20a0a7+0,20a0a7+3,cccccc+3,cccccc+100 */
+		background: #cccccc !important; /* Old browsers */
+		background: -moz-linear-gradient(left, #20a0a7 0%, #20a0a7 3%, #cccccc 3%, #cccccc 100%) !important; /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #20a0a7 0%,#20a0a7 3%,#cccccc 3%,#cccccc 100%) !important; /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #20a0a7 0%,#20a0a7 3%,#cccccc 3%,#cccccc 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a0a7', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+	    color: #000000 !important;
+	    font-weight: bold;
+	}
+	/*============ Nav ============*/
+	
+	/*============ Form ============*/
+	.home-form .form-horizontal .form-one-control-label{font-size:13px;font-family:'Open Sans',sans-serif !important;font-weight:400 !important}
+	.home-form .form-group{margin-top:0}
+	.home-form .custom-submit-btn-div input{font-size:12px !important;text-transform:uppercase;max-width:85px !important}
+	.home-form .form-fo1-title{padding:10px 10px 10px 20px;font-family:'Exo 2',sans-serif !important;font-size:18px;font-weight:600;text-transform:uppercase;background-color:#30a3dc}
+	.home-form .form-one-registration form{padding-bottom:0;margin-bottom:0}
+	.home-form .form-error .custom-form-row{padding-bottom:0 !important}
+	.home-form .form-control{height:25px !important}
+	.home-form form div.section{padding-bottom:0}
+	.home-form .container-form{min-height:455px;background:#e0e8eb}
+	.home-form .form-error .bv-form .help-block{line-height:1}
+	.home-form .communication-channel-name{font-size:14px}
+	.home-form span#marketingOptInLabel{font-size:11px}
+	.home-form span#thirdPartyOptInLabel{font-size:11px}
+	.home-form .email-communication-channel{font-size:11px;word-wrap:normal}
+	.home-form .communication-channel label{font-size:11px;word-wrap:normal !important}
+	.home-form div.communication-channel{width:33% !important}
+	.home-form #preferencedcommuwithInforma-div2{margin-top:-10px}
+	.home-form .subscriptioncheckBox{margin-top:-10px}
+	.home-form .custom-submit-btn-div{margin-top:-10px;margin-bottom:-10px}
+	.home-form .custom-form-row{background-color: #113656!important;color: #FFF!important;}
+	.home-form label{color: #fff !important;}
+	.home-form div#formTitleId{background-color: #20a0a7!important;}
+
+	input#formSubmit{background:#20a0a7 !important;color:#fff !important}
+	input#formReset{background:#20a0a7 !important;color:#fff !important}
+	/*============ Form ============*/
+
+	/*============ Blocks ============*/
+	.fime-blocks-column1 div,.fime-blocks-column2 div,.fime-blocks-column3 div,.fime-blocks-column4 div{padding-right:0}
+	.fime-blocks-column2 a{display:block;width:100%;text-align:center;background-color:#0d7cbf;padding:35% 0;font-size:26px;font-family:'Exo 2',sans-serif;font-weight:600}
+	.fime-blocks-column2 a:hover{background-color:#ed1b2e;color:#fff !important;text-decoration:none;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;-ms-transition:all 300ms ease-in-out;-o-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out}
+	.fime-blocks-column3 a{display:block;width:100%;text-align:center;background-color:#ed1b2e;padding:28% 0;font-size:26px;font-family:'Exo 2',sans-serif;font-weight:600}
+	.fime-blocks-column3 a:hover{background-color:#0d7cbf;color:#fff !important;text-decoration:none;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;-ms-transition:all 300ms ease-in-out;-o-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out}
+	a.block2{color:#fff;text-align:center}
+	a.block3{color:#fff;text-align:center}
+	/*============ Blocks ============*/
